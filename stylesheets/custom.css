@@ -1,7 +1,20 @@
 
-.image-face {
-    padding-bottom: 40px;
+.jumbotron {
+    background: transparent;
 }
 
+.image-face {
+    padding-top: 40px;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 0px;
+}
+
+.btn:hover {
+    border: none;
+}
 
 
