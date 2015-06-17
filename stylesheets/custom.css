@@ -5,7 +5,7 @@
 
 .image-face {
     padding-top: 40px;
-
+    max-height: 400px;
 }
 
 .btn {
@@ -17,4 +17,17 @@
     border: none;
 }
 
+.site-footer {
+}
 
+ ul {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+ ul li {
+    list-style:none;
+    margin-bottom:25px;
+}
+ ul li img {
+    cursor: pointer;
+}
