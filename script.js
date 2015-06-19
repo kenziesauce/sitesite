@@ -35,6 +35,15 @@ scotchApp.controller('aboutController', function($scope) {
 });
 
 scotchApp.controller('contactController', function($scope) {
-    $scope.message = 'Projects!';
+    //$scope.message = 'Projects!';
+
+    $scope.imageArray = [
+        {name:"image", src:"http://lorempixel.com/200/200"},
+        {name:"image", src:"http://lorempixel.com/200/200"},
+        {name:"image", src:"http://lorempixel.com/200/200"},
+        {name:"image", src:"http://lorempixel.com/200/200"},
+        {name:"image", src:"http://lorempixel.com/200/200"}
+    ];
 });
+
 
