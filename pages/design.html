@@ -1,0 +1,30 @@
+<!-- contact.html -->
+
+<h1>Design Projects Page</h1>
+
+<div class="jumbotron text-center">
+
+
+
+<div ng-repeat="item in imageArray"><div class="col-xs-6 col-sm-4 col-md-3" >
+            <a ng-click="hiddenPopUp=true" class="btn" data-toggle="modal" data-target="#myModal"><img ng-src={{item.src}} ALT="{{item.name}}" MAX-WIDTH=400 MAX-HEIGHT=200></a></div>
+</div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body ">
+                <img ng-src={{item.src}} ALT="{{item.name}}" MAX-WIDTH=400 MAX-HEIGHT=200>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>

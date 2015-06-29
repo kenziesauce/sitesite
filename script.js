@@ -18,8 +18,12 @@ scotchApp.config(function($routeProvider) {
         })
 
         // route for the contact page
-        .when('/projects', {
-            templateUrl : 'pages/projects.html',
+        .when('/design', {
+            templateUrl : 'pages/design.html',
+            controller  : 'designController'
+        })
+        .when('/web', {
+            templateUrl : 'pages/web.html',
             controller  : 'contactController'
         });
 });
@@ -34,16 +38,22 @@ scotchApp.controller('aboutController', function($scope) {
     $scope.message = 'Look! I am an about page.';
 });
 
-scotchApp.controller('contactController', function($scope) {
-    //$scope.message = 'Projects!';
+scotchApp.controller('designController', function($scope) {
+    $scope.message = 'Look! I am an about page.';
 
     $scope.imageArray = [
-        {name:"image", src:"http://lorempixel.com/200/200"},
+        {name:"image", src:"images/LogoBLACK400px.png"},
         {name:"image", src:"http://lorempixel.com/200/200"},
         {name:"image", src:"http://lorempixel.com/200/200"},
         {name:"image", src:"http://lorempixel.com/200/200"},
         {name:"image", src:"http://lorempixel.com/200/200"}
     ];
+});
+
+scotchApp.controller('contactController', function($scope) {
+    //$scope.message = 'Projects!';
+
+
 });
 
 
