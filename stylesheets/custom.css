@@ -3,6 +3,10 @@
     background: transparent;
 }
 
+.project-name {
+    font-size: 60px;
+}
+
 .image-face {
     padding-top: 40px;
     max-height: 400px;
@@ -36,24 +40,7 @@
 
 }
 
+.design-head {
+    padding-bottom: 10px;
+}
 
-/*.popUP{*/
-    /*position:absolute;*/
-    /*z-index: 2000;*/
-    /*width: 100%;*/
-    /*height: auto;*/
-    /*padding: 70px;*/
-    /*background-color: rgba(255, 255, 255, 0.8);*/
-/*}*/
-
-/*.popUP>img{*/
-    /*width: 50%;*/
-    /*height: auto;*/
-    /*display: block;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-/*}*/
-
-/*.popUP>h3{*/
-    /*text-align: center;*/
-/*}*/
