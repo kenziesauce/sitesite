@@ -7,6 +7,10 @@
     font-size: 60px;
 }
 
+.logo {
+    max-height: 300px;
+}
+
 .image-face {
     padding-top: 40px;
     max-height: 400px;
