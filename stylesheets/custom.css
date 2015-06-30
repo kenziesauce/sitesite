@@ -11,6 +11,11 @@
     max-height: 300px;
 }
 
+.info-bar {
+    font-size: small;
+    padding: 6px 6px 6px 6px;
+}
+
 .image-face {
     padding-top: 40px;
     max-height: 400px;
@@ -40,8 +45,8 @@
     cursor: pointer;
 }
 
-.about-form {
-
+h4 a {
+    color: black;
 }
 
 .design-head {
