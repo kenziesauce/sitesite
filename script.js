@@ -42,7 +42,7 @@ scotchApp.controller('designController', function($scope) {
     $scope.message = 'Look! I am an about page.';
 
     $scope.imageArray = [
-        {name:"image", src:"images/LogoBLACK400px.png"},
+        //{name:"image", src:"images/LogoBLACK400px.png"},
         {name:"image", src:"http://lorempixel.com/200/200"},
         {name:"image", src:"http://lorempixel.com/200/200"},
         {name:"image", src:"http://lorempixel.com/200/200"},
@@ -55,5 +55,6 @@ scotchApp.controller('contactController', function($scope) {
 
 
 });
+
 
 
