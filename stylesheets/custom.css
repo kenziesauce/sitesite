@@ -1,6 +1,8 @@
 
 .jumbotron {
     background: transparent;
+    align-content: center;
+
 }
 
 .project-name {
@@ -21,6 +23,10 @@
     max-height: 400px;
 }
 
+.img-responsive {
+    display: inline;
+}
+
 .btn {
     border: none;
     border-radius: 0;
@@ -28,6 +34,10 @@
 
 .btn:hover {
     border: none;
+}
+
+.button-bar {
+    font-size: 10px;
 }
 
 .site-footer {
@@ -66,6 +76,12 @@ h4 a {
     text-align:center;
     width:100%;
 }
+
+.logo {
+    align-items: center;
+}
+
+
 
 /*about page*/
 
