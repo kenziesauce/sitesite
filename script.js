@@ -109,7 +109,7 @@ $('#aboutEmail').click(function() {
                         email: "kenziesauce@gmail.com",
                         name: "RECIPIENT NAME (OPTIONAL)",
                         type: "to"
-                    },
+                    }
 
                 ],
                 autotext: "true",
