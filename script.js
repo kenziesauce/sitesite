@@ -61,6 +61,7 @@ $(document).ready(function ($) {
 
 });
 
+//ABOUT
 
 $('.photos img').hover(
     function(){
@@ -70,3 +71,54 @@ $('.photos img').hover(
         $(this).find('img').stop().fadeTo('slow', 1);
     });
 
+//$.ajax({
+//    type: "POST",
+//url: "https://mandrillapp.com/api/1.0/messages/send.json",
+//    data: {
+//    key: "9qqG4b1sJMUYAWp90EuXxA",
+//    message: {
+//        from_email: "kenziesauce@gmail.com",
+//        to: [
+//                {
+//            email: "kenziesauce@gmail.com",
+//        name: "RECIPIENT NAME (OPTIONAL)",
+//        type: "to"
+//        },
+//
+//    ],
+//    autotext: "true",
+//    subject:"YOUR SUBJECT HERE!",
+//    html: "YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!"
+//    }
+//}
+//}).done(function(response) {
+//    console.log(response); // if you're into that sorta thing
+//});
+
+
+$('#aboutEmail').click(function() {
+    $.ajax({
+        type: "POST",
+        url: "https://mandrillapp.com/api/1.0/messages/send.json",
+        data: {
+            key: "9qqG4b1sJMUYAWp90EuXxA",
+            message: {
+                from_email: "makenziesiteemail@gmail.com",
+                to: [
+                    {
+                        email: "kenziesauce@gmail.com",
+                        name: "RECIPIENT NAME (OPTIONAL)",
+                        type: "to"
+                    },
+
+                ],
+                autotext: "true",
+                subject:"YOUR SUBJECT HERE!",
+                html: "YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!"
+            }
+        }
+    }).done(function(response) {
+        console.log(response); // if you're into that sorta thing
+    });
+
+});
