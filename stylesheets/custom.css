@@ -2,7 +2,10 @@
 .jumbotron {
     background: transparent;
     align-content: center;
+}
 
+.container-fluid {
+    padding-top: 10px;
 }
 
 .project-name {
